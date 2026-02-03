@@ -1,0 +1,1 @@
+create table user_info(id int primary key,name varchar(20),channel_id int,foreign key(channel_id) references channels(channel_id));
